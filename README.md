@@ -213,14 +213,51 @@ Nessessita da entrada de vários valores inteiros.
 Retorna a quantidade de valores pares, ímpares, positivos e negativos.
 
 ✔ Enquanto o valor for diferente da valor do contador informado, continua solicitando novos valores.
+
 ✔ Se o valor for par, escreva "Par".
+
     ✔ Se o valor for positivo, incrementa o texto "Positivo".
-    ✔ Se o valor for negativo, incrementa o texto "Negativo".
-✔ Se o valor for ímpar, escreva "Impar".
-    ✔ Se o valor for positivo, incrementa o texto "Positivo".
+
     ✔ Se o valor for negativo, incrementa o texto "Negativo".
 
-**problema13**: 
+✔ Se o valor for ímpar, escreva "Impar".
+
+    ✔ Se o valor for positivo, incrementa o texto "Positivo".
+
+    ✔ Se o valor for negativo, incrementa o texto "Negativo".
+
+**problema13**: Média ponderada.
+Nessessita da entrada de 3 valores reais (float) e entra de 1 valor inteiro.
+Retorna a média ponderada das notas.
+
+✔ Enquanto a valor i(0) for diferente do valor informado, continua solicitando 3 novos valores.
+
+✔ Média ponderada = (nota1*2 + nota2*3 + nota3*5) ÷ (2+3+5)
+
+**problema14**: Divisão de A por B.
+Nessessita da entrada de 3 valores reais (float).
+Retorna o resultado da divisão de A por B.
+
+✔ Enquanto o valor de 0 for menor que valor do contador informado, continua solicitando 2 novos valores.
+
+✔ Se o valor de B for igual a 0, informa "Divisão impossivel".
+
+✔ Se o valor de B for diferente de 0, informa o resultado da divisão de A por B.
+
+✔ Resultado = A ÷ B
+
+**problema15**: Contagem de cobaias (coelhos, ratos e sapos).
+Nessessita da entrada de vários valores inteiros (quantidade de cobaias) e caracteres (tipo de cobaia: C, R ou S).
+Retorna a quantidade total de cobaias, a quantidade de cada tipo e o percentual de cada tipo em relação ao total.   
+
+✔ Enquanto o valor for diferente do valor do contador informado, continua solicitando.
+
+✔ Quantidade de cobaias (inteiro) e Tipo de cobaia (caractere: C, R ou S).
+
+✔ Total de cobaias = soma da quantidade de cada tipo.
+
+✔ Percentual de cada tipo = (quantidade de cada tipo ÷ total de cobaias) × 100.
+
 
 ---
 
