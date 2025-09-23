@@ -5,21 +5,17 @@ using namespace std;
 
 int main() {
 
-    int cont, num, dentro = 0, fora = 0;
+    int x;
     
-    cout << "Quantos numeros voce vai digitar? ";
-    cin >> cont;
+    cout << "Digite o valor de X: ";
+    cin >> x;
 
-    for (int i = 0; i < cont; i++)
-    {
-        cout << "Digite um numero: ";
-        cin >> num;
-        if (num < 10 || num > 20){fora++;}
-        else {dentro++;}
-        
-    }
-    cout << dentro << " DENTRO" << endl;
-    cout << fora << " FORA" << endl;
+        if (x % 2 == 0){ x--; }
+        for (int i = 1; i <= x; i+=2){
+
+        cout << i << endl;
+
+        }
 
     return 0;
 }

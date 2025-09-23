@@ -1,21 +1,23 @@
 #include <iostream>
-#include <iomanip>
-#include <cmath>
+#include <algorithm>
+
 using namespace std;
 
 int main() {
 
-    int x;
-    
-    cout << "Digite o valor de X: ";
-    cin >> x;
+    int x, y, soma = 0;
 
-        if (x % 2 == 0){ x--; }
-        for (int i = 1; i <= x; i+=2){
+    cout << "Digite dois numeros: " << endl;
+    cin >> x >> y;
 
-        cout << i << endl;
+    int conteiner[2] = {x, y};
+    sort(conteiner, conteiner + 2);
 
-        }
+    for ( int i = conteiner[0] + 1; i < conteiner[1]; i++) {
+        if(i % 2 != 0){soma+=i;}
+    }
+
+    cout << "SOMA DOS IMPARES = " << soma << endl;
 
     return 0;
 }

@@ -5,7 +5,7 @@ using namespace std;
 
 int main() {
 
-    int cont, num;
+    int cont, num, dentro = 0, fora = 0;
     
     cout << "Quantos numeros voce vai digitar? ";
     cin >> cont;
@@ -14,19 +14,12 @@ int main() {
     {
         cout << "Digite um numero: ";
         cin >> num;
-
-        if (num == 0) {cout << "NULO" << endl;}
-        else if (num % 2 == 0){
-            if (num < 0) {cout << "PAR NEGATIVO" << endl;}
-            else {cout << "PAR POSITIVO" << endl;}
-        }
-        else {
-            if (num < 0) {cout << "IMPAR NEGATIVO" << endl;}
-            else {cout << "IMPAR POSITIVO" << endl;}
-        }
-
+        if (num < 10 || num > 20){fora++;}
+        else {dentro++;}
         
     }
+    cout << dentro << " DENTRO" << endl;
+    cout << fora << " FORA" << endl;
 
     return 0;
 }

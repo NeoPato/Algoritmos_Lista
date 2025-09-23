@@ -1,28 +1,31 @@
 #include <iostream>
 #include <iomanip>
+#include <numeric>  
 
 using namespace std;
 
 int main() {
 
-    float cont, nume, deno;
-
-    cout << fixed << setprecision(2);
+    int quant, cont = 0, peso[3] = {2,3,5};
+    int tamanho = sizeof(peso) / sizeof(peso[0]);
 
     cout << "Quantos casos voce vai digitar? ";
-    cin >> cont;
+    cin >> quant;
 
-    for ( int i = 0; i < cont; i++ ) {
+    float numbers[quant];
 
-        cout << "Entre com o numerador: ";
-        cin >> nume;
-        cout << "Entre com o denominador: ";
-        cin >> deno;
-        
-        if ( deno > 0 || deno < 0 ) {cout << "DIVISAO = " << nume/deno << endl;}
-        else {cout << "DIVISAO IMPOSSIVEL" << endl;}
-        
-    }
+    do{   
+
+        float soma = 0;
+        cout << "Digite tres numeros: " << endl;
+        for (int i = 0; i < 3; i++){
+            cin >> numbers[i];
+            soma += numbers[i] * peso[i];
+        }
+        cout << fixed << setprecision(1)<< "MEDIA = " << soma/accumulate(peso, peso + tamanho, 0) << endl;
+        cont++;
+
+    }while ( cont != quant );
     
 
     return 0;

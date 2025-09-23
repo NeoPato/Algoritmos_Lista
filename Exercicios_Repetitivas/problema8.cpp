@@ -1,23 +1,18 @@
 #include <iostream>
-#include <algorithm>
-
+#include <iomanip>
+#include <cmath>
 using namespace std;
 
 int main() {
 
-    int x, y, soma = 0;
+    int num = 0;
+    
+    cout << "Deseja a tabuada para qual valor? ";
+    cin >> num;
 
-    cout << "Digite dois numeros: " << endl;
-    cin >> x >> y;
-
-    int conteiner[2] = {x, y};
-    sort(conteiner, conteiner + 2);
-
-    for ( int i = conteiner[0] + 1; i < conteiner[1]; i++) {
-        if(i % 2 != 0){soma+=i;}
+    for ( int i = 1; i < 11; i++ ) {
+        cout << num << " x " << i << " = " << num * i << endl; 
     }
-
-    cout << "SOMA DOS IMPARES = " << soma << endl;
 
     return 0;
 }

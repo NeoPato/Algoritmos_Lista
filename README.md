@@ -104,7 +104,123 @@ Exercícios com **estruturas condicionais**: if, else, switch, etc.
 ### Terceira Lista
 Exercícios com **estruturas de repetição**: for, while, do-while.
 
-**Problema1**
+**Problema1**: Ordem (crescente ou decrescente) dos números de X a Y.
+Nessessita da entrada de 2 valores inteiros (X e Y).
+Retorna a ordem dos números entre X e Y.
+
+✔ Se X < Y, mostra em ordem crescente.
+
+✔ Se X > Y, mostra em ordem descrescente.
+
+✔ Se não X = Y, informa que são iguais, assim encerrando o programa.
+
+**Problema2**: Cálculo de média de idades até idade negativa ser informada.
+Nessessita da entrada de várias idades (valores inteiros).
+retorna a média das idades informadas, exceto a negativa que encerrra o programa.
+
+✔ Se a idade for igual a zero, informa que não é possível o cálculo da média.
+
+✔ Se não a idade for negativa, encerra o programa.
+
+    ✔ Média = soma das idades ÷ quantidade de idades;
+
+**problema3**: Continua se o valor informado não for 2002.
+nessessita da entrada de um/vários valores inteiros.
+Retorna uma mensagem de "Acesso Permitido" quando o valor 2002 for informado, encerrando o programa.
+
+✔ Enquanto o valor for diferente de 2002, informa "Senha Invalida".
+
+✔ Se o valor for igual de 2002, informa "Acesso permitido!" e encerra o código.
+
+**problema4**: Quadrante de coordenadas.
+Nessessita da entrada de 2 valores reais (float): coordenadas X e Y.
+Retorna o quadrante em que as coordenadas estão localizadas.
+
+✔ Enquanto X ≠ 0 e Y ≠ 0, informa o quadrante.
+
+✔ Se X > 0 e Y > 0, informa "Primeiro".
+
+✔ Se X < 0 e Y > 0, informa "Segundo".
+
+✔ Se X < 0 e Y < 0, informa "Terceiro".
+
+✔ Se X > 0 e Y < 0, informa "Quarto".
+
+**problema5**: Soma de notas válidas.
+Nessessita da entrada de duas notas (valores reai/float).
+retorna a média das notas válidas (entre 0 e 10) e dividida pela quantidade de notas.
+
+✔ Enquanto a nota for inválida (menor que 0 ou maior que 10), informa "Valor invalido! Tente novamente" e solicita uma nova nota.
+
+✔ Se a nota for válida, soma a nota e incrementa a quantidade de notas válidas.
+
+✔ Após 2 notas válidas, informa a média.
+
+✔ Média = soma das notas ÷ quantidade de notas válidas.
+
+**problema6**: Combustível (Alcool, Gasolina ou Diesel) contagem.
+Nessessita da entrada de vários valores inteiros (1, 2, 3 ou 4).
+Retorna a quantidade de cada combustível informado.
+
+✔ Enquanto o valor for diferente de 4, continua solicitando um novo valor.
+
+✔ Se o valor for 1, incrementa a contagem de Alcool.
+
+✔ Se o valor for 2, incrementa a contagem de Gasolina.
+
+✔ Se o valor for 3, incrementa a contagem de Diesel.
+
+**problema7**: Soma de números pares.
+Nessessita da entrada de 1 valor inteiro.
+Retorna a soma de todos os números pares entre valor e 5 valores pares depois do valor informado (exclusivo).
+
+✔ Enquanto a quantidade de números pares for menor que 5, continua somando os números pares.
+✔ Soma dos pares = soma de todos os números pares entre valor e 5 valores pares depois do valor informado (exclusivo).
+✔ Se o valor for impar, soma o valor impar com 1 para iniciar o cálculo dos pares.
+
+**problema8**: Tabela de multiplicação.
+Nessessita da entrada de um valor inteiro.
+Retorna a tabuada do valor informado (de 1 a 10).
+
+✔ Enquano o valor for menor que 10, continua multiplicando o valor.
+
+✔ valor x 1 a 10 = resultado.
+
+**problema9**: Soma de ímpares consecutivos.
+Nessessita da entrada de 2 valores inteiros (X e Y).
+Retorna a soma dos números ímpares entre X e Y.
+
+✔ Enquanto X for maior que Y, solicita novos valores.
+
+✔ Soma dos ímpares = soma dos números ímpares entre X e Y (exclusivo).
+
+**problema10**: Sequência de impares.
+Nessessita da entrada de 1 valor inteiro.
+Retorna os valores de todos os números ímpares de 1 até X.
+
+✔ Enquanto números ímpares de 1 até X.
+
+**problema11**: Mostra se o valor está dentro ou fora do intervalo.
+Nessessita da entrada de vários valores inteiros.
+Retorna a quantidade das váriavel dentro ou fora do intervalo [10,20].
+
+✔ Enquanto o valor for maior que x, continua solicitando novos valores.
+✔ Se o valor estiver dentro do intervalo [10,20], adiciona 1 ponto para a váriavel dentro.
+✔ Se o valor estiver fora do intervalo [10,20], adiciona 1 ponto para a variável fora.
+
+**problema12**: Avisa se o valor é par ou ímpar e se é positivo e negativo.
+Nessessita da entrada de vários valores inteiros.
+Retorna a quantidade de valores pares, ímpares, positivos e negativos.
+
+✔ Enquanto o valor for diferente da valor do contador informado, continua solicitando novos valores.
+✔ Se o valor for par, escreva "Par".
+    ✔ Se o valor for positivo, incrementa o texto "Positivo".
+    ✔ Se o valor for negativo, incrementa o texto "Negativo".
+✔ Se o valor for ímpar, escreva "Impar".
+    ✔ Se o valor for positivo, incrementa o texto "Positivo".
+    ✔ Se o valor for negativo, incrementa o texto "Negativo".
+
+**problema13**: 
 
 ---
 
