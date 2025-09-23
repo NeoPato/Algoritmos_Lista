@@ -14,58 +14,29 @@ Breve descrição de como foram resolvidos os problemas trazidos nas listas pass
 
 ## Como Executar o Código
 
-Este projeto pode ser compilado e executado tanto no **Visual Studio** quanto no **MinGW**. Escolha o método de sua preferência e siga as instruções abaixo.
+Este projeto pode ser compilado e executado utilizando o **Visual Studio Code** (VS Code) e o **MinGW** (Minimalist GNU for Windows). Siga as instruções abaixo para configurar seu ambiente e rodar o código.
 
 ---
 
-## 1. **Executar o Código no Visual Studio**
+## 1. **Executar o Código com Visual Studio Code e MinGW**
 
-### 1.1 **Instalar o Visual Studio**
+### 1.1 **Instalar o Visual Studio Code**
 
-Caso você ainda não tenha o Visual Studio instalado, siga os passos abaixo:
+1. Baixe e instale o **Visual Studio Code** [aqui](https://code.visualstudio.com/).
+2. Após a instalação, abra o VS Code e instale a extensão **C/C++**:
+   - No menu lateral esquerdo, clique em **Extensões** (ícone de quadrado com 4 pequenos quadrados) e pesquise por "C/C++".
+   - Instale a extensão fornecida pela **Microsoft**.
 
-1. Baixe e instale o **Visual Studio** [aqui](https://visualstudio.microsoft.com/).
-2. Durante a instalação, certifique-se de incluir os componentes de desenvolvimento para **C++**:
-   - Selecione a opção "Desenvolvimento Desktop com C++" (Desktop development with C++).
-   - Isso instalará o compilador e as ferramentas necessárias para compilar e executar código C/C++.
+### 1.2 **Instalar o MinGW**
 
-### 1.2 **Abrir o Projeto no Visual Studio**
-
-1. Abra o **Visual Studio**.
-2. No menu superior, selecione **File** > **Open** > **Project/Solution**.
-3. Navegue até a pasta onde está o código-fonte do projeto e abra o arquivo de solução do Visual Studio (`.sln`), caso exista.
-4. Se o projeto não contiver um arquivo de solução `.sln`, você pode criar um novo projeto C/C++ no Visual Studio e adicionar os arquivos fonte manualmente.
-
-### 1.3 **Configurar o Projeto**
-
-Se o projeto já possui um arquivo `.sln`, esta etapa pode ser ignorada. Caso contrário, siga os passos:
-
-1. Crie um novo projeto **Console Application** em C++:
-   - Selecione **File** > **New** > **Project**.
-   - Escolha **Console Application** e selecione **C++** como linguagem.
-2. Adicione seus arquivos fonte ao novo projeto. Clique com o botão direito na pasta **Source Files** no **Solution Explorer** e selecione **Add** > **Existing Item...**. Selecione os arquivos `.cpp` ou `.c` do seu projeto.
-
-### 1.4 **Compilar e Executar o Código**
-
-1. No **Visual Studio**, clique em **Build** > **Build Solution** ou pressione `Ctrl + Shift + B` para compilar o projeto.
-2. Após a compilação, clique em **Debug** > **Start Debugging** ou pressione `F5` para executar o código.
-
-Se preferir, você pode executar o arquivo diretamente da pasta de saída (`Debug` ou `Release`).
-
----
-
-## 2. **Executar o Código com MinGW**
-
-### 2.1 **Instalar o MinGW**
-
-Para compilar o código usando o **MinGW** (Minimalist GNU for Windows), siga os passos abaixo:
-
-1. Baixe o instalador do MinGW [aqui](https://sourceforge.net/projects/mingw-w64/).
-2. Durante a instalação, selecione a opção para instalar o **MinGW (GCC)**.
-3. Após a instalação, adicione o diretório `bin` do MinGW ao **PATH** do seu sistema:
+1. Baixe e instale o **MinGW** (Minimalist GNU for Windows) [aqui](https://sourceforge.net/projects/mingw/).
+2. Durante a instalação, escolha a versão do **MinGW (GCC)** para C e C++
+3. Durante a execução do MinGW Installation Manager, selecione mingw32-base e mingw32-gcc-g++, clique em installion e Apply Changes
+4. Após a instalação, adicione o diretório `bin` do MinGW ao **PATH** do sistema:
    - Abra o **Prompt de Comando** ou **PowerShell** e digite: `echo %PATH%`.
-   - Caso o caminho do MinGW não esteja lá, adicione manualmente o diretório `bin` (onde o `gcc` está localizado) às variáveis de ambiente.
-   (C:\MinGW\bin);
+   - Caso o caminho do MinGW não esteja lá, adicione manualmente o diretório `bin` (onde o `gcc` e o `g++` estão localizados) às variáveis de ambiente.
+
+   Exemplo de caminho no Windows (C:\MinGW\bin):
 
 ### 2.2 **Compilar o Código**
 
