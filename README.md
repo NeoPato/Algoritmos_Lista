@@ -36,9 +36,9 @@ Este projeto pode ser compilado e executado utilizando o **Visual Studio Code** 
    * Abra o **Prompt de Comando** ou **PowerShell** e digite: `echo %PATH%`.
    * Caso o caminho do MinGW não esteja lá, adicione manualmente o diretório `bin` (onde o `gcc` e o `g++` estão localizados) às variáveis de ambiente.
 
-   Exemplo de caminho no Windows (C:\MinGW\bin):
+   Exemplo de caminho no Windows:
    ```
-
+   C:\MinGW\bin
 ---
 
 ## 2. **Compilar o Código**
